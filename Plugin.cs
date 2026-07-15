@@ -6,7 +6,7 @@ using UniverseLib.UI;
 
 namespace WLEmotePlayer
 {
-    [BepInPlugin("EmotePlayer", "emoteplayer", "1.0.0")]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
         public static UIBase UIBase { get; private set; }
