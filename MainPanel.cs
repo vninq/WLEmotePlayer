@@ -43,7 +43,7 @@ namespace WLEmotePlayer
         // ui stuff
         protected override void ConstructPanelContent()
         {
-            UIHelper ui = new UIHelper(ContentRoot);
+            var ui = new UIHelper(ContentRoot);
 
             ui.AddSpacer(5);
             ui.CreateLabel("Playable Emotes");
@@ -59,7 +59,7 @@ namespace WLEmotePlayer
 
         public void PlayEmoteAngry()
         {
-            PlayerCharacter playerCharacter = GetMyCharacter();
+            var playerCharacter = GetMyCharacter();
             if (playerCharacter != null)
             {
                 playerCharacter.PlayEmote(emoteAngry);
@@ -78,7 +78,7 @@ namespace WLEmotePlayer
 
         public void PlayEmoteSad()
         {
-            PlayerCharacter playerCharacter = GetMyCharacter();
+            var playerCharacter = GetMyCharacter();
             if (playerCharacter != null)
             {
                 playerCharacter.PlayEmote(emoteSad);
@@ -87,7 +87,7 @@ namespace WLEmotePlayer
 
         public void PlayEmoteHeart()
         {
-            PlayerCharacter playerCharacter = GetMyCharacter();
+            var playerCharacter = GetMyCharacter();
             if (playerCharacter != null)
             {
                 playerCharacter.PlayEmote(emoteHeart);
