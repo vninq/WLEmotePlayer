@@ -23,4 +23,4 @@ join my discord for if you have any mod ideas https://discord.com/invite/CeQUG3g
 - Heart
 - Happy
 
-> **More comming soon maybe**
+ **More comming soon maybe**
