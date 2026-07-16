@@ -7,7 +7,7 @@ namespace WLEmotePlayer
 {
     public class MainPanel : UniverseLib.UI.Panels.PanelBase
     {
-        // emots
+        //emots
         public string emoteHappy = "Happy";
         public string emoteSad = "Crying";
         public string emoteAngry = "Angry";
