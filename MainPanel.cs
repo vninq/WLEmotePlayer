@@ -69,7 +69,7 @@ namespace WLEmotePlayer
 
         public void PlayEmoteHappy()
         {
-            PlayerCharacter playerCharacter = GetMyCharacter();
+            var playerCharacter = GetMyCharacter();
             if (playerCharacter != null)
             {
                 playerCharacter.PlayEmote(emoteHappy);
