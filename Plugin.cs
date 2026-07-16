@@ -24,7 +24,7 @@ namespace WLEmotePlayer
 
             UniverseLib.Universe.Init(1f, OnUIInitialized, (x, y) => { }, config);
 
-            Logger.LogInfo("Plugin EmotePlayer is loaded!");
+            Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
 
 
