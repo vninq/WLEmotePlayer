@@ -9,3 +9,5 @@ the mod gos in ``bepinex/plugins`` f4 to open it
 - Sad
 - Heart
 - Happy
+
+**More comming soon**
