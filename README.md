@@ -14,7 +14,7 @@ its kanda uselsses but its good for spammnig people whit emotes  `f4` to open it
 
 # Links
 
-join my discord for if you have any mod ideas https://discord.com/invite/CeQUG3ggb
+join my discord if you have any mod ideas https://discord.com/invite/CeQUG3ggb
 
 # Playable-Emotes
 
