@@ -30,7 +30,7 @@ namespace WLEmotePlayer
 
         private static void OnUIInitialized()
         {
-            UIBase = UniversalUI.RegisterUI("vninq.emoteplayer", UIUpdate);
+            UIBase = UniversalUI.RegisterUI(PLUGIN_GUID, UIUpdate);
 
             MainPanel = new MainPanel(UIBase);
 
