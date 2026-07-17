@@ -1,12 +1,6 @@
 # Emote-Player
 
 its kanda uselsses but its good for spammnig people whit emotes  `f4` to open it
-
- # Installation
-
- Install [BepInEx 5.X](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.2)
-   
- you can find a guide [here](https://docs.bepinex.dev/articles/user_guide/installation/index.html)
  
 # The mod requires ShadowLib
 
