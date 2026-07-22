@@ -67,6 +67,8 @@ namespace WLEmotePlayer
 
         }
 
+        public void PlayEmoteForAllPlayers(){ // i left this out }
+
         public void PlayEmoteHappy()
         {
             var playerCharacter = GetMyCharacter();
