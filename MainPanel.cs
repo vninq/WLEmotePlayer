@@ -18,7 +18,7 @@ namespace WLEmotePlayer
         public override int MinHeight => 600;
         public override Vector2 DefaultAnchorMin => new Vector2(0.5f, 0.5f);
         public override Vector2 DefaultAnchorMax => new Vector2(0.5f, 0.5f);
-        public override Vector2 DefaultPosition => new Vector2((float)(-(float)MinWidth / 2), (MinHeight / 2)); // divides the minimum width by 2
+        public override Vector2 DefaultPosition => new Vector2((float)(-(float)MinWidth / 2), (MinHeight / 2)); // divides the minimum width and heght by 2
         public override bool CanDragAndResize => true;
 
         public static PlayerCharacter GetMyCharacter()
