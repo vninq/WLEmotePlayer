@@ -6,7 +6,7 @@ using UniverseLib.UI;
 
 namespace WLEmotePlayer
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
         public static UIBase UIBase { get; private set; }
@@ -24,13 +24,13 @@ namespace WLEmotePlayer
 
             UniverseLib.Universe.Init(1f, OnUIInitialized, (x, y) => { }, config);
 
-            Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+            Logger.LogInfo($"Plugin {PluginGuid} is loaded!");
         }
 
 
         private static void OnUIInitialized()
         {
-            UIBase = UniversalUI.RegisterUI(PLUGIN_GUID, UIUpdate);
+            UIBase = UniversalUI.RegisterUI(PluginGuid, UIUpdate);
 
             MainPanel = new MainPanel(UIBase);
 
