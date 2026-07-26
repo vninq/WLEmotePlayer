@@ -1,6 +1,6 @@
 # Emote-Player
 
-its kanda uselsses but its good for spammnig people whit emotes  `f4` to open it.
+its kanda uselsses but its good for spammnig people with emotes  `f4` to open it.
                                                                                                                                                                                                                         The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
 
