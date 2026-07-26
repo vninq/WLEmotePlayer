@@ -23,23 +23,21 @@ namespace WLEmotePlayer
 
         public static PlayerCharacter GetMyCharacter()
         {
-            if (UnitySingleton<GameInstance>.Instance.GetGamemode() == null)
+            if (GameInstance.Instance.GetGamemode() == null)
             {
                 return null;
             }
-            else
-            {
-                foreach (PlayerCharacter playerCharacter in UnitySingleton<GameInstance>.Instance.GetPlayerCharacters())
-                {
-                    if (playerCharacter.networkObject.IsOwner())
-                    {
-                        return playerCharacter;
-                    }
-                }
-                return null;
-            }
-        }
 
+            foreach (PlayerCharacter playerCharacter in GameInstance.Instance.GetPlayerCharacters())
+            {
+                if (playerCharacter.networkObject.IsOwner())
+                {
+                    return playerCharacter;
+                }
+            }
+
+            return null;
+        }
         // ui stuff
         protected override void ConstructPanelContent()
         {
