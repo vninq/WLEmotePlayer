@@ -23,12 +23,8 @@ namespace WLEmotePlayer
 
         public static PlayerCharacter GetMyCharacter()
         {
-            if (GameInstance.Instance.GetGamemode() == null)
-            {
-                return null;
-            }
-
-            foreach (PlayerCharacter playerCharacter in GameInstance.Instance.GetPlayerCharacters())
+            if (GameInstance.InstanceExists)
+            foreach (var playerCharacter in GameInstance.Instance.GetPlayerCharacters())
             {
                 if (playerCharacter.networkObject.IsOwner())
                 {
