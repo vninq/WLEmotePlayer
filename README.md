@@ -6,5 +6,5 @@ its kanda uselsses but its good for spammnig people with emotes  `f4` to open it
 
 join my discord if you have any mod ideas (https://discord.gg/U8uS8dpfN)
 
-put the WLEmotePlayer.dll in plugins
+put the WLEmotePlayer.dll in ``plugins``
 
