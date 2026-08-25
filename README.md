@@ -12,5 +12,6 @@ put the EmotePlayer.dll in ``plugins``
 
 
 im probbably gonna discontinue this sense im adding it to lstwomods idk when 
+
 last update but i have added a dropdown and all emots
 have fun(;
