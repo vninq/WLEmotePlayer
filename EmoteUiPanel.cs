@@ -17,7 +17,7 @@ namespace EmotePlayer
         public EmoteUiPanel(UIBase owner) : base(owner){ }
 
         private static string[] eomts = { "Happy", "Crying", "Angry", "Heart", "Thanks", "Well Done", "Follow Me", "Sorry", "Need Help", "Bye", "Clap", "Double Wave", "Dance", "Wave", "Thumbs Up", "Laugh", "Thumbs Down", "Grumpy" };
-        private static List<PlayerController> players = new List<PlayerController>(); // i don't have .net 10 but in vs code i do
+        private static List<PlayerController> players = new List<PlayerController>();
         private int playerIndex = 0; //a player dropdown for later
         private int emoteIndex = 0;
 
