@@ -1,6 +1,12 @@
 # Emote-Player
 
 its kanda uselsses but its good for spammnig people with emotes  `f4` to open it.
+
+or build it yourself 
+
+```bash
+dotnet build -c Release
+```
                                                                                                                                                                                                                         The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
 
