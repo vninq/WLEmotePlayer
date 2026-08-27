@@ -7,7 +7,7 @@ or build it yourself
 ```bash
 dotnet build -c Release
 ```
-                                                                                                                                                                                                                        The mod requires
+The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
 
 join my discord if you have any mod ideas (https://discord.gg/U8uS8dpfN)
