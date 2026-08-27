@@ -2,7 +2,9 @@
 
 its kanda uselsses but its good for spammnig people with emotes  `f4` to open it.
 
-or build it yourself 
+# build it yourself 
+
+just if you want to add something
 
 ```bash
 dotnet build -c Release
