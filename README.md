@@ -10,7 +10,7 @@ just if you want to add something
 dotnet build -c Release
 ```
 > [!NOTE]
-> cross play update destroys bepinexe plugin object
+> cross play update destroys BepInEx plugin object
 
 because on the EOS (Epic Online Services) build every ``MonoBehaviour`` sitting in the DDOL (DontDestroyOnLoad) scene before the first frame (including bepInExs plugin object) gets moved into an empty bootstrap scene and destroyed before ``Start()`` even runs so the plugin never reached ``Start()`` or ``Update()`` so setting the
 ```C#
