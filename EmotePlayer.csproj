@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <AssemblyName>EmotePlayer</AssemblyName>
+    <RootNamespace>EmotePlayer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ShadowLib">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\plugins\ShadowLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UniverseLib.Mono">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\plugins\CinematicUnityExplorer\UniverseLib.Mono.dll</HintPath>
+    </Reference>
+    
+    <Reference Include="Game" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\Game.dll" />
+    <Reference Include="HawkNetworking" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\HawkNetworking.dll" />
+    <Reference Include="Utils" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\Utils.dll" />
+    <Reference Include="UnityEngine" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.dll" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.CoreModule.dll" />
+    <Reference Include="UnityEngine.InputLegacyModule" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.InputLegacyModule.dll" />
+    <Reference Include="UnityEngine.InputModule" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.InputModule.dll" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.TextRenderingModule.dll" />
+    <Reference Include="UnityEngine.UI" HintPath="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\Wobbly Life_Data\Managed\UnityEngine.UI.dll" />
+  </ItemGroup>
+
+</Project>
