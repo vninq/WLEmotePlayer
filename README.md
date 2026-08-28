@@ -9,6 +9,15 @@ just if you want to add something
 ```bash
 dotnet build -c Release
 ```
+> [!NOTE]
+> cross play update will break the mod.
+
+because on the EOS build every ``MonoBehaviour`` sitting in the DDOL (DontDestroyOnLoad) scene on frame 0 (including bepInExs plugin object) gets moved into an empty bootstrap scene and destroyed before ``Start()`` evenruns so the plugin never reached ``Start()`` or ``Update()`` so setting the
+```C#
+HideManagerGameObject = true 
+```
+in the ``BepInEx.cfg`` will fix it
+
 The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
 
