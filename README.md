@@ -10,13 +10,13 @@ just if you want to add something
 dotnet build -c Release
 ```
 > [!NOTE]
-> cross play update will break the mod.
+> cross play update destroys bepinexe plugin object
 
-because on the EOS (Epic Online Services) build every ``MonoBehaviour`` sitting in the DDOL (DontDestroyOnLoad) scene on frame 0 (including bepInExs plugin object) gets moved into an empty bootstrap scene and destroyed before ``Start()`` evenruns so the plugin never reached ``Start()`` or ``Update()`` so setting the
+because on the EOS (Epic Online Services) build every ``MonoBehaviour`` sitting in the DDOL (DontDestroyOnLoad) scene before the first frame (including bepInExs plugin object) gets moved into an empty bootstrap scene and destroyed before ``Start()`` even runs so the plugin never reached ``Start()`` or ``Update()`` so setting the
 ```C#
 HideManagerGameObject = true 
 ```
-in the ``BepInEx.cfg`` will fix it
+in the ``BepInEx.cfg`` will fix it.
 
 The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
