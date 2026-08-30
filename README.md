@@ -9,14 +9,14 @@ just if you want to add something
 ```bash
 dotnet build -c Release
 ```
-> [!NOTE]
-> cross play update destroys BepInEx plugin object
 
-because on the EOS (Epic Online Services) build every ``MonoBehaviour`` sitting in the DDOL (DontDestroyOnLoad) scene before the first frame (including bepInExs plugin object) gets moved into an empty bootstrap scene and destroyed before ``Start()`` even runs so the plugin never reached ``Start()`` or ``Update()`` so setting the
+# Cross play
+bepinex gets moved to an empty scene and destroyed before any mods load
+so setting
 ```C#
 HideManagerGameObject = true 
 ```
-in the ``BepInEx.cfg`` will fix it.
+in `` Wobbly Life/BepInEx/config/BepInEx.cfg`` will fix it.
 
 The mod requires
 [ShadowLib](https://github.com/lstwo/ShadowLib/releases)
