@@ -1,8 +1,8 @@
-# Emote-Player
+## Emote-Player
 
 its kanda uselsses but its good for spammnig people with emotes  `f4` to open it.
 
-# build it yourself 
+## build it yourself 
 
 just if you want to add something
 
@@ -10,7 +10,7 @@ just if you want to add something
 dotnet build -c Release
 ```
 
-# Cross play
+## Cross play
 bepinex gets moved to an empty scene and destroyed before any mods load
 so setting
 ```C#
