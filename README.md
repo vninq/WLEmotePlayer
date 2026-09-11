@@ -12,11 +12,7 @@ dotnet build -c Release
 
 ## Cross play
 bepinex gets moved to an empty scene and destroyed before any mods load
-so setting
-```C#
-HideManagerGameObject = true 
-```
-in `` Wobbly Life/BepInEx/config/BepInEx.cfg`` will fix it.
+replace the old BepInEx.cfg with the one here
 
 
 join my discord if you have any mod ideas (https://discord.gg/U8uS8dpfN)
