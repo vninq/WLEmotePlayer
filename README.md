@@ -1,6 +1,6 @@
 ## Emote-Player
 
-its kanda uselsses but its good for spammnig people with emotes  `f4` to open it.
+its just a plugin for lstwomods that adds a dropdown and some emotes like projectmods/azza but there is no custom text bubble.
 
 ## build it yourself 
 
@@ -11,7 +11,7 @@ dotnet build -c Release
 ```
 
 ## Cross play
-bepinex gets moved to an empty scene and destroyed before any mods load
+bepinex gets moved to an empty scene and destroyed before any mods load.
 replace the old BepInEx.cfg with the one here
 
 
