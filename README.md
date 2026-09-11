@@ -18,8 +18,6 @@ HideManagerGameObject = true
 ```
 in `` Wobbly Life/BepInEx/config/BepInEx.cfg`` will fix it.
 
-The mod requires
-[ShadowLib](https://github.com/lstwo/ShadowLib/releases)
 
 join my discord if you have any mod ideas (https://discord.gg/U8uS8dpfN)
 
