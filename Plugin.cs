@@ -5,7 +5,8 @@ using System.Reflection;
 namespace EmotePlayer
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
-    [BepInDependency("lstwoMODS_WobblyLife", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("net.lstwo.lstwomods_core")]
+    [BepInDependency("lstwoMODS_WobblyLife")]
     public class Plugin : BaseUnityPlugin
     {
         internal static new ManualLogSource Logger;
