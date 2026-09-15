@@ -10,10 +10,6 @@ just if you want to add something
 dotnet build -c Release
 ```
 
-## Cross play
-bepinex gets moved to an empty scene and destroyed before any mods load.
-replace the old BepInEx.cfg with the one here
-
 
 join my discord if you have any mod ideas (https://discord.gg/U8uS8dpfN)
 
