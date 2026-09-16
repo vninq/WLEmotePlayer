@@ -14,30 +14,21 @@
     <PackageReference Include="BepInEx.Core" Version="5.4.21" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="2.1.0" />
     <PackageReference Include="WobblyLife.GameLibs" Version="1.1.0" />
+    <PackageReference Include="WobblyLife.EOS.GameLibs" Version="1.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>libs\Assembly-CSharp.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+<ItemGroup>
     <Reference Include="lstwoMODS_Core">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\plugins\lstwoMODS\lstwoMODS_Core.dll</HintPath>
+        <HintPath>lib\lstwoMODS_Core.dll</HintPath>
     </Reference>
+
+    <Reference Include="lstwoMODS.ImGui.Shared">
+        <HintPath>lib\lstwoMODS.ImGui.Shared.dll</HintPath>
+    </Reference>
+
     <Reference Include="lstwoMODS_WobblyLife">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\plugins\lstwoMODS_WobblyLife.dll</HintPath>
+        <HintPath>lib\lstwoMODS_WobblyLife.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>libs\UnityEngine.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-        <Reference Include="BepInEx">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Wobbly Life\BepInEx\core\BepInEx.dll</HintPath>
-      </Reference>
-  </ItemGroup>
+</ItemGroup>
 
 </Project>
