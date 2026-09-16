@@ -1,12 +1,7 @@
-﻿using lstwoMODS_Core.Hacks;
+using lstwoMODS_Core.Hacks;
 using lstwoMODS_Core.UI.TabMenus;
 using lstwoMODS_WobblyLife.Mods;
-using ModWobblyLife;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace EmotePlayer
@@ -19,23 +14,23 @@ namespace EmotePlayer
 
         public override ModsWindow ModsWindow => lstwoMODS_WobblyLife.Plugin.PlayerModsWindow;
 
-
-        [ModAction(Label = "Play For Selected")]
-        public void PlayEmotee(EmoteType typee)
+        [ModAction(Label = "Play")]
+        public void PlayEmotee(EmoteTypee type)
         {
-            Player?.Character?.PlayEmote(typee.ToString());
+            var emote = type.ToString().Replace("_", " ");
+            Player?.Character?.PlayEmote(emote);
         }
 
         [ModAction(Label = "Play For Everyone")]
-        public void PlaForEvery(EmoteType typee)
+        public void PlaForEvery(EmoteTypee type)
         {
             foreach (var character in GameInstance.Instance.GetPlayerCharacters())
             {
-                character .PlayEmote(typee.ToString());
+                var emote = type.ToString().Replace("_", " ");
+                character.PlayEmote(emote);
             }
         }
 
-        // );
         public enum EmoteTypee
         {
             Happy,
@@ -53,10 +48,9 @@ namespace EmotePlayer
             Wave,
             Dance,
             Thumbs_Up,
-            Laughing,
+            Laugh,
             Thumbs_Down,
             Grumpy
-
         }
     }
 }
