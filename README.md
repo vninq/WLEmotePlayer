@@ -1,6 +1,7 @@
 ## Emote-Player
 
-an emote player for wobbly life that is a plugin for lstwomods that adds a dropdown and some emotes like projectmods/azza but there is no custom text bubble.
+an emote player for wobbly life that is a plugin for lstwomods 
+it adds a dropdown and some emotes like projectmods/azza but there is no custom text bubble.
 
 ## build it yourself 
 
