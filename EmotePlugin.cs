@@ -48,7 +48,7 @@ namespace EmotePlayer
             Wave,
             Dance,
             Thumbs_Up,
-            Ha Ha,
+            Ha_Ha,
             Thumbs_Down,
             Grumpy
         }
